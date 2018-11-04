@@ -463,4 +463,292 @@ Mail Service & conformatie e-mails sturen \\
 
 
 
+
+
+
+\begin{table}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Catalog} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{/} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Sort Items By Category & Item \\ \hline
+Display To Catalog & Client \\ \hline
+\end{tabular}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{User} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{Sub: Client} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+ &  \\ 
+ &  \\
+ \hline
+\end{tabular}
+
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Item} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{/} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Contains amount in stock &  \\ \hline
+Contains basic product information &  \\ \hline
+\end{tabular}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Client} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{Super: User} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+ &  \\ 
+ &  \\ 
+ \hline
+\end{tabular}
+\caption{Scenario A : Display Catalog To User}
+\label{scenarioA}
+\end{table}
+
+
+
+\begin{table}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Cart} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{/} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Contains items, each with an amount & Item \\ \hline
+Linked to specific Client & Client \\ \hline
+\end{tabular}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{User} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{Sub: Client} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+ & \\
+ &  \\ 
+ \hline
+\end{tabular}
+
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Item} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{/} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Contains basic product information & / \\ \hline
+\end{tabular}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Client} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{Super: User} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Can add an Item to its own Cart & Cart, Item  \\ \hline
+\end{tabular}
+\caption{Scenario B : Add Item to Cart}
+\label{scenarioB}
+\end{table}
+
+
+
+
+
+\begin{table}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Cart} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{/} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Contains items, each with an amount & Item \\ \hline
+Linked to specific Client & Client \\ \hline
+\end{tabular}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{User} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{Sub: Client} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+ &  \\ 
+ &  \\
+ \hline
+\end{tabular}
+
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Item} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{/} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Contains basic product information & / \\ \hline
+\end{tabular}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Client} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{Super: User} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Can remove an Item to its own Cart & Cart, Item  \\ \hline
+\end{tabular}
+
+\caption{Scenario C : Remove Item to Cart}
+\label{scenarioC}
+\end{table}
+
+
+\begin{table}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Item} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{/} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Contains basic product information & / \\ \hline
+\end{tabular}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Client} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{Super: User} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+ & \\ \hline
+\end{tabular}
+
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{User} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{Sub: Administrator, Client} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+ &  \\ \hline
+\end{tabular}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Administrator} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{Super: User} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Can change orders & Order  \\ \hline
+\end{tabular}
+
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Order} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{/} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Contains items, each with an amount & Item \\ \hline
+Linked to specific Client & Client \\ \hline
+Has an order ID & / \\ \hline
+Has a flag 'delivered' & / \\ \hline
+\end{tabular}
+
+\caption{Scenario D : Admin changes order}
+\label{scenarioD}
+\end{table}
+
+\begin{table}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Item} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{/} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Contains basic product information & / \\ \hline
+\end{tabular}
+
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Order} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{/} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Contains items, each with an amount & Item \\ \hline
+Linked to specific Client & Client \\ \hline
+Calculates a total price based on Items & Item \\ \hline
+Has an order ID & / \\ \hline
+Has a flag 'Paid' & / \\ \hline
+\end{tabular}
+
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Cart} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{/} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+Contains items, each with an amount & Item \\ \hline
+Linked to specific Client & Client \\ \hline
+Checkout to Order & Item, Client, Order \\ \hline
+\end{tabular}
+
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{User} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{Sub: Client} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+ &  \\ \hline
+\end{tabular}
+\begin{tabular}{|l||l|}
+\hline
+\multicolumn{2}{|c|}{ Class \textbf{Client} }\\ \hline
+\multicolumn{2}{|c|}{}\\ \hline
+\multicolumn{2}{|c|}{ \textbf{Sub/Super-classes} }\\ \hline
+\multicolumn{2}{|c|}{Super: User} \\ \hline
+\multicolumn{2}{|c|}{ \textbf{Responsibilities}}\\ \hline
+\textbf{Responsibility} & \textbf{Collaboration} \\ \hline
+ & \\ \hline
+\end{tabular}
+\caption{Scenario E : Place Order and Pay}
+\label{scenarioE}
+\end{table}
+
+
+
 \end{document}
