@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Inleiding}{2}
+\contentsline {section}{\numberline {2}Planning}{2}
+\contentsline {section}{\numberline {3}Actors}{2}
+\contentsline {section}{\numberline {4}Unexpected Changes and exceptions}{2}
+\contentsline {section}{\numberline {5}Extra Vragen Voor de Use Cases}{3}
+\contentsline {section}{\numberline {6}Scenario's}{3}
+\contentsline {section}{\numberline {7}Overige niet-functionele requirements}{3}
+\contentsline {section}{\numberline {8}Objecten in het systeem}{3}
+\contentsline {section}{\numberline {9}CRC cards}{4}
+\contentsline {subsection}{\numberline {9.1}Scenario A: Display Catalog to user}{4}
+\contentsline {subsection}{\numberline {9.2}Scenario B: Add Item to cart}{4}
+\contentsline {subsection}{\numberline {9.3}Scenario C: Remove item from cart}{4}
+\contentsline {subsection}{\numberline {9.4}Scenario D: Admin changes Order}{4}
+\contentsline {subsection}{\numberline {9.5}Scenario E: Place Order and pay}{4}
+\contentsline {section}{\numberline {10}Object-oriented vs functional decomposition}{4}
+\contentsline {section}{\numberline {11}Bijlage}{5}
+\contentsline {subsection}{\numberline {11.1}Functional Requirements}{5}
+\contentsline {subsection}{\numberline {11.2}Non-Functional Requirements}{5}

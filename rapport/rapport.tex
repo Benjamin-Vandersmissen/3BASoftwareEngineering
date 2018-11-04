@@ -10,6 +10,8 @@
 
 \begin{document}
 \maketitle
+\tableofcontents
+\newpage
 \section{Inleiding}
 Dit document beschrijft de voorbereiding voor een online shop. De requirements zijn te vinden in de bijlage. Er is een planning opgesteld, een risicoanalyse gemaakt, er zijn aantal scenario's onderzocht en de basis klassen zijn bedacht.\\
 
@@ -57,7 +59,36 @@ Er zijn nog drie scenario's verder uitgediept. Twee primaire scenario's waar er 
 De eerste drie zijn er voor user-friendliness, ze zorgen voor een snelle en daarmee aangename shop ervaring.\\
 De lichte webpagina's zijn nodig om het op alle platformen bruikbaar te maken, anders kan webbrowsen op bv. een gsm voor stotteringen zorgen.\\
 Het wisselen van bank moet, anders kan het zijn dat bepaalde gebruikers niet kunnen betalen omdat zij niet de juiste bank hebben.
-\newpage
+
+\section{Objecten in het systeem}
+Om het de objecten te herkennen in zijn de objecten in onderlijnde, vette letters gezet in de bijlage "Functional Requirements". Voor de objecten zijn er dan candidaat klasse namen opgesteld, tabel \ref{ObjectInSystem}.
+
+\section{CRC cards}
+Om duidelijker te maken wat objecten zijn en hoe ze moeten intrageren zijn er ook nog CRC cards gemaakt. Deze staan in de bijlage. De uitleg per scenario staat hieronder.
+
+\subsection{Scenario A: Display Catalog to user}
+Zie tabel \ref{scenarioA}.\\
+\textbf{\underline{Catalog}} is verantwoordelijk voor het sorteren van de items en het weergeven aan de client, omdat het weergeven voor elke client hetzelfde is en voor alle items ook hetzelfde is. \textbf{\underline{Item}} heeft basisinfo die word weergegeven door de catalog en ook een hoeveelheid in stock, zodat items out of stock niet in de catalog worden weergegeven. \textbf{\underline{User}} heeft geen responsibilities hier, maar wel een collaboration met \textbf{\underline{Catalog}}.
+
+\subsection{Scenario B: Add Item to cart}
+Zie tabel \ref{scenarioB}.\\
+Elke \textbf{\underline{User}} heeft een eigen \textbf{\underline{Cart}} en kan dus ook \textbf{\underline{items}} toevoegen aan zijn eigen \textbf{\underline{Cart}}. De \textbf{\underline{Cart}} zelf bevat \textbf{\underline{Items}} met elks een eigen hoeveelheid. Het toevoegen van items gebeurt in \textbf{\underline{User}} omdat elke user een cart geassocieerd heeft met zichzelf en dat dus niet geimplementeerd kan worden in \textbf{\underline{Item}}.
+
+\subsection{Scenario C: Remove item from cart}
+Zie tabel \ref{scenarioC}.\\
+Dit scenario is net zoals scenario B alleen in plaats van een item toe te voegen, wordt er een item verwijderd. Daarom passen we onze CRC cards ook zo gewoon aan en moeten we er niets extra aan aanpassen.
+
+\subsection{Scenario D: Admin changes Order}
+Zie tabel \ref{scenarioD}.
+Een \textbf{\underline{Client}} kan meerdere \textbf{\underline{Orders}} hebben, maar een \textbf{\underline{Order}} kan maar exact \'e\'en \textbf{\underline{Client}} hebben, daarom is dit een verantwoordelijkheid van \textbf{\underline{Order}} om dit bij te houden. Een \textbf{\underline{Order}} kan alleen maar aangepast worden als de order zelf nog niet geleverd is, daarom wordt er een flag bijgehouden voor elke \textbf{\underline{Order}}. \textbf{\underline{Administrators}} mogen orders aanpassen en een order wordt geidentificeerd door zijn ID. Een \textbf{\underline{Order}} bevat ook verwijzingen naar Items, houdt bij welke items er in zitten en hoeveel.
+
+\subsection{Scenario E: Place Order and pay}
+Zie tabel \ref{scenarioE}.\\
+Een \textbf{\underline{Order}} wordt gegenereerd op basis van de \textbf{\underline{Cart}} of winkelwagentje van een \textbf{\underline{Client}}. De totaalprijs van de order wordt berekend en toegevoegd aan de \textbf{\underline{Order}} zodat er betaald kan worden. De betaling gebeurt extern via een bank of online bankieren, als die succesvol is, dan wordt er een flag op de \textbf{\underline{Order}} aangepast en dan kan de order klaargemaakt worden voor levering. 
+
+\section{Object-oriented vs functional decomposition}
+Object-oriented decomposition is beter voor complexe systemen en door encapsulatie is er een zekere robuustheid tegen veranderingen. Object-oriented decomposition is duidelijk een betere keuze hier, omdat er een hoop veranderingen kunnen gebeuren, bijvoorbeeld in orders en hoe die betaald worden. Een andere reden dat object-oriented beter is, is omdat in de requirements er ook al een aantal entiteiten (objecten) gespecifieerd zijn die geimplementeerd moeten worden. Die kunnen we dus al gebruiken om een object-oriented hierarchie mee op te stellen.  Ook zorgt object-oriented ervoor dat de functionaliteit gegroepeerd staat bij de objecten die ze nodig hebben. 
+
 
 \newpage
 
@@ -65,29 +96,29 @@ Het wisselen van bank moet, anders kan het zijn dat bepaalde gebruikers niet kun
 \subsection{Functional Requirements}
 De volgende functionele requirements zijn gegeven door de klant.
 \begin{itemize}
-\item The system must have following entities in order to describe the current
+\item The \textbf{system} must have following entities in order to describe the current
 situation of orders and clients:
 \begin{itemize}
-\item Items: items that can be sols. An item has a name, price and category (electronics, home \& living, hifi, ...).
-\item Cart: the current items a client has chosen but not yet ordered.
-\item Order: a single order made by a client.
-\item Clients: all registered and unregistered clients that already ordered
+\item \textbf{\underline{Items}}: items that can be sols. An item has a \textbf{\underline{name}}, \textbf{\underline{price}} and \textbf{\underline{category}} (electronics, home \& living, hifi, ...).
+\item \textbf{\underline{Cart}}: the current items a client has chosen but not yet ordered.
+\item \textbf{\underline{Order}}: a single order made by a client.
+\item \textbf{\underline{Clients}}: all registered and unregistered clients that already ordered
 something.
 \end{itemize}
 \item Following categories must exists, but it should be possible to add new
 categories to the store:\\
 Phone, Tablet, Computer, Image, Sound, Home \& Living, Kitchen, Travel,
 Fashion, Sport
-All items must be displayed in a catalog, ordered by category. Every
+All items must be displayed in a \textbf{\underline{catalog}}, ordered by category. Every
 category should be displayed on a separate page. A user can sort the
 items according to name, popularity or price.
 \item A user can add/remove items to/from the cart and change the desired
 quantity.
 \item A user has the ability to order the items in his cart. The user then has to
 fill in some standard information and afterwards select a payment method.
-\item When a payment has been received a confirmation mail has to be send to
+\item When a \textbf{\underline{payment}} has been received a confirmation mail has to be send to
 the user.
-\item An administrator must be able to make changes to placed (but not yet
+\item An \textbf{\underline{administrator}} must be able to make changes to placed (but not yet
 delivered) orders.
 \item An administrator should be able to get an overview of all open and delivered orders.
 \item A user is able to log in and get an overview of his personal information,
@@ -113,7 +144,6 @@ De volgende niet-functionele requirements zijn gegeven door de klant.
 \item Easy-to-use
 \item No inconsistent states should occur
 \end{itemize}
-
 
 
 
@@ -427,6 +457,8 @@ Mail Service & conformatie e-mails sturen \\
 \label{maxGantt}
 \end{figure}
 
+\newpage
+
 \begin{figure}
 \centering
 \includegraphics[width=13.5cm]{scenario1_plaatsOrder.jpg}
@@ -459,9 +491,7 @@ Mail Service & conformatie e-mails sturen \\
 \end{figure}
 
 
-
-
-
+\newpage
 
 
 
@@ -749,6 +779,26 @@ Checkout to Order & Item, Client, Order \\ \hline
 \label{scenarioE}
 \end{table}
 
-
+\begin{table}
+\centering
+\begin{tabular}{|c|c|}
+\hline
+Nouns \& Synonyms & Candidate Class Name \\
+\hline
+System & - : don’t model the system \\
+store, shop & Store (? Model ourselves)\\
+Item & Item (+: core concept)\\
+Cart & Cart (+: core concept)\\
+Order & Order (+: core concept)\\
+Client & Client (+: core concept)\\
+Administrator & Administrator (+: core concept)\\
+Catalog & Catalog (+: core concept)\\
+Category & Category (?: item attribute)\\
+Payment & Payment (+: core concept)\\
+\hline
+\end{tabular}
+\caption{Objecten die voorkomen in het systeem.}
+\label{ObjectInSystem}
+\end{table}
 
 \end{document}
