@@ -1,0 +1,13 @@
+Cyclomatic Complexity = 21 - 15 + 2 = 8
+
+independent paths : 
+		{node1, for_loop1, node3, while_loop1, node8}
+		{node1, for_loop1, if_statement1, for_loop1, node3, while_loop1, node8}
+		{node1, for_loop1, if_statement1, node2, for_loop1, node3, while_loop1, node8}
+		{node1, for_loop1, node3, while_loop1, node4, for_loop2, while_loop1, node8}
+		{node1, for_loop1, node3, while_loop1, node4, for_loop2, for_loop3, for_loop2, while_loop1, node8}
+		{node1, for_loop1, node3, while_loop1, node4, for_loop2, for_loop3, node5, if_statement2, for_loop3, for_loop2, while_loop1, node8}
+		{node1, for_loop1, node3, while_loop1, node4, for_loop2, for_loop3, node5, if_statement2, node6, if_statement3, for_loop3, for_loop2, while_loop1, node8}
+		{node1, for_loop1, node3, while_loop1, node4, for_loop2, for_loop3, node5, if_statement2, node6, if_statement3, node7, for_loop3, for_loop2, while_loop1, node8}
+
+		= 8 verschillende mogelijkheden = Cyclomatic complexity
