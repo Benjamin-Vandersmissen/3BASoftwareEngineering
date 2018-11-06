@@ -1,0 +1,13 @@
+pad 1 : database bevat 1 item, 0 clients, min_sup = 1 => faalt op if_statement1 & for_loop2
+
+pad 2 : database bevat 1 item, 1 client, min_sup = 1 => faalt op for_loop3
+
+pad 3 : database bevat 0 items, 0 clients, min_sup = 1 => faalt op for_loop1, for_loop2
+
+pad 4 : database bevat 2 items, 2 clients allebei item A, B, min_sup = 1 => doorloopt volledige pad zonder te falen
+
+pad 5 : database bevat 2 items, 3 clients : c1 c2 kopen item A c2, c3 kopen item B, min_sup = 2 => falen op if_statement 3
+
+pad 6 : database bevat 3 items, 2 clients allebei item A, B, C, min_sup = 1 => falen op sub_if_statement_3
+
+pad 7 : database bevat 4 items, 2 clients allebei elk item, min_sup = 1 => falen op sub_if_statement_2 
