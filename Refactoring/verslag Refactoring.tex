@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\begin{document}
+
+\section{Refactoring}
+Er zijn 4 manieren om aan refactoring te doen: Extract Method, Move Behaviour Close to the Data, Eliminate Navigation Code and Transform Self Type.
+
+\subsection{Extract Method}
+Deze refactoring gaat duplicate code vervangen door een functie die meerdere malen gebruikt kan worden. De werkwijze bestaat uit 3 delen:
+\begin{itemize}
+\item Zoek naar duplicate code
+\item Baken de verschillen af in duplicate code door extra variabelen te introduceren
+\item Zet de duplicate code in een functie en pas die functie toe met de juiste variabelen
+\end{itemize}
+
+\subsection{Move Behaviour Close to the Data}
+Als een methode alleen maar data gebruikt uit een specifieke klasse, maar deze methode staat buiten de klasse (bijvoorbeeld in een andere klasse, of als onafhankelijke functie), dan wordt het encapsulatie principe niet gevolgd. Dit principe zegt dat methodes op specifieke data gebundeld moeten worden met die data. De refactoring houdt dan in dat we een methode verplaatsten naar de klasse waar de data inzit waar die methode op inwerkt.
+
+\subsection{Eliminate Navigation Code}
+Methodes buiten een klasse moeten vermijden de interne structuur van een klasse te kennen. Dit wil zeggen dat ze niet de interne variabelen rechtstreeks mogen aanroepen, maar altijd zoveel mogelijk via methoden op de klasse moeten werken. Dit is om \textit{change dependencies} te vermijden. Een \textit{change dependency} betekent dat als iets in de klasse aangepast wordt, dat dit ook op andere plaatsen moet aangepast worden, omdat de interne structuur die gerefereerd werd, aangepast werd. De code die \textit{change dependencies} introduceert, wordt ook wel \textit{navigation code} genoemd. Het refactoring proces bestaat uit 2 delen:
+\begin{itemize}
+\item verplaats de navigation code naar een aparte method
+\item voeg de method toe in de relevante klasse
+\end{itemize}
+Merk op dat het eerste deel van deze werkwijze sterk lijkt op \textit{Extract Method} en het tweede deel is hetzelfde als \textit{Move Behaviour close to the Data}
+
+\subsection{Transform Self Type Checks}
+Self type checks wilt zeggen dat er in een klasse een variabele aanwezig is, vaak type of gelijkaardig genoemd, die verschillende waardes kan aannemen en afhankelijk van die waardes verschillende functionaliteit kan uitvoeren. Dit kan logisch beschouwd worden als subclasses van een gedeelde basis klasse. Het doel van deze refactoring is het overbodig maken van de type variabele en de code herverdelen in subclasses. Hiervoor kunnen we de volgende stappen toepassen:
+\begin{itemize}
+\item Maak subclasses aan voor de oorsponkelijke klasse, 1 voor elke mogelijke waarde van type
+\item Gebruik de subclasses daar waar nodig is in de code ipv de oorspronkelijke klasse
+\item Bekijk voor elke functie die de type variabele gebruikt, welke code naar welke subclass verplaatst mag worden. Dit doen we door de methode virtual te maken in de basis klasse en die te overschrijven in de subclasses.
+\item Verwijder de nu overbodige type checks uit de code in de subclasses.
+\end{itemize}
+
+\subsection{Examples of refactoring methods in given code}
+We kunnen \textbf{Transform Self Type Checks} gebruiken in de klasse \textit{Payment.java}. Deze klasse heeft een variabele \textit{type} en op basis van die variabele wordt er verschillende functionaliteit geimplementeerd in \textit{PaymentProcessor}.\\
+
+Een andere refactoring methode die we kunnen toepassen, is op \textit{PaymentProcessor}. Deze klasse heeft functionaliteit die alleen maar inwerkt op de klasse \textit{Payment}. We kunnen deze code dus verplaatsen naar de klasse \textit{Payment}  (en zijn subclasses) door \textbf{Eliminate Navigation Code} toe te passen.
+
+\end{document}
