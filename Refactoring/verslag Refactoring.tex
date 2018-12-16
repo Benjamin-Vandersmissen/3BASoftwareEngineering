@@ -1,6 +1,135 @@
 \documentclass{article}
+\usepackage{array}
+
+
+\makeatletter
+\newcommand{\thickhline}{%
+    \noalign {\ifnum 0=`}\fi \hrule height 1pt
+    \futurelet \reserved@a \@xhline
+}
+\newcolumntype{"}{@{\hskip\tabcolsep\vrule width 1pt\hskip\tabcolsep}}
+\makeatother
+
+
+% Enter the name of the subject
+\newcommand{\assignmentname}{Assignment 5: Software Metrics}
+% Your names
+\newcommand{\studentA}{Benjamin Vandersmissen}
+\newcommand{\studentB}{Franciscus Fekkes}
+
+\title{\textmd{\textbf{Software Engineering}}\\\normalsize\vspace{0.1in}\Large{\assignmentname}\\\vspace{0.1in}\small{\textit{3 Ba INF \  2018-2019}}}
+\author{\studentA \\ \studentB}
 
 \begin{document}
+
+\maketitle
+\section{Complexiteit}
+Om de complexiteit van het project te bepalen zijn de externe in- en outputs bepaald, de inquiries, externe interfaxes en logical files. Daarna kunnen deze onderverdeeld worden in hoe moeilijk het is om ze te implementeren: simpel (S), gemiddeld (A) en complex (C). Ieder van deze categorie\"en krijgt een gewicht om zo een numerieke waarde te kunnen bekomen voor de complexiteit van het hele programma.\\
+De evaluatie van de functionaliteiten en datastructuren is te vinden in tabel \ref{eval}. De datastructuren zijn opgedeeld in Interface Logical Files en External Interface Files. De eerste soort wordt alleen door de user (clients en administrators) aangepast en de tweede wordt door externe bronnen aangepast. De functionele aspecten worden opgedeeld in drie delen: External Inputs, External Outputs en External Inquiries. External Inputs laten de users toe om input te geven aan het systeem. External Outputs genereren data/informatie. External Inquiries laten de users toe om selecte data op te vragen.\\
+Nadat alle functionalieten en datastructuren zijn opgedeeld, kan de som van de unadjusted function points berekend worden. Deze zal dan vermenigvuldigd worden met de complexity factor die berekend is in tabel \ref{compFactor}.\\
+Met de formule $\#LOC/AFP = 46$ voor java kunnen we dan een gerichte schatting maken van het aantal lijnen code dat het programma in totaal zal hebben. Dit zal waarschijnlijk rond de 8400 zijn. Dit zal waarschijnlijk aan de hoge kant liggen.\\
+
+\section{Analyse Source Code}
+Met de tool PMD is de source code nog geanalyseerd op grote en kleine problemen. Niet alle fouten zullen tot in detail besproken worden maar alles wordt eerder oppervlakkig en in het algemeen bekeken.\\
+Vervang de oproepen waarbij $size() == 0$ of $size() > of < 1$ wordt bekeken met een functie $isEmpty()$.\\
+Zorg voor duidelijkere namen voor variabelen zoals voor de variabele $m_db$ en $m\_id$. Deze namen geven soms niet duidelijk weer waarvoor ze staan.\\
+Vermijdt zeer lange namen zoals $prev\_iter\_itemsets$.\\
+Constructors zouden geen exceptions moeten throwen zoals in $TransactionDB.java$. Vermijdt ook nested if statements zoals in $Cart.java\ remove\_item$.\\
+Voor performance redenen zouden new objecten buiten lussen aangemaakt moeten worden ($Eclat.java$ \& $TransactionDB.java$).\\
+Er mist nogsteeds een hele hoop documentatie. Er missen header comments, method en constuctor comments etc...
+\begin{table}
+\begin{tabular}{|r|c|l|}
+\hline
+Data structure:	& Complexiteit:	& Type:	\\
+\hline
+Cart			& A 			& ILF 	\\
+Catalog			& C 			& ILF 	\\
+Category		& S 			& ILF	\\
+Item			& C 			& ILF 	\\
+Order			& A 			& ILF 	\\
+Orders			& A 			& EIF 	\\
+Client			& A 			& ILF 	\\
+Admin			& A 			& ILF 	\\
+\hline
+\hline
+Functionaliteit:							& Complexiteit:	& Type: \\
+\hline
+user sort									& A				& EQ	\\
+user add items cart							& A				& EI	\\
+user remove items cart						& A				& EI	\\
+user chanhe desired quantity cart			& A				& EI	\\
+user order items cart						& A				& EO	\\
+user enter standard info					& A				& EI	\\
+user select payment							& S				& EI	\\
+user cancel order not ready delivery		& C				& EI	\\
+user overview personal info					& S				& EO	\\
+user overview mailing preferences			& S				& EO	\\
+user overview own open/delivered orders		& S				& EQ	\\
+user overview popular items					& S				& EO	\\
+user sort items name/pop/price				& A				& EQ	\\
+user/admin display catalog					& S				& EO	\\
+user/admin order by category				& A				& EQ 	\\
+admin add category							& A				& EI	\\
+admin change placed order					& A				& EI	\\
+admin overview all open/deliverd orders 	& A				& EQ	\\
+admin check statistics						& C				& EQ	\\
+admin analysis previous orders				& C				& EQ	\\
+\hline
+\end{tabular}
+\caption{Evaluatie complexiteit en type van alle datastructuren en functionaliteiten. Complexity: S: Simple, A:Average, C:Complex. Types:ILF: Interface Logical Files, ELF: External Intergace Files, EI: External Inputs, EO: External Outputs, EI: External Inquiries.}
+\label{eval}
+\end{table}
+
+\begin{table}
+\begin{tabular}{|l"l|l|l|l|}
+\thickhline
+		& \multicolumn{3}{c}{Weighting Factor} &  \\
+\thickhline
+Item 				& Simple	& Average	& Complex	&	sum:\\
+\hline
+External Inputs		& 1 * 3 = 3 	& 6 * 4	=24		& 1 * 6 = 6		& 33	\\
+External Outputs	& 4 * 4 =16		& 1 * 5	= 5		& 0 * 7	= 0		& 21	\\
+Inquiries			& 1 * 3 = 3		& 4 * 4	=16		& 2 * 6	= 12	& 31	\\
+External Interfaces	& 0	* 5	= 5		& 1 * 7	= 7		& 0 *10	= 50	& 7	\\
+Logical Files 		& 1	* 7	= 7		& 4	*10	=40		& 2	*15 = 30	& 77	\\
+\thickhline
+\multicolumn{4}{|l|}{Unadjusted Function Points} 		&  169\\
+\thickhline
+\textbf{Adjusted Function Points} &\multicolumn{2}{l}{x Complexity Factor (1.075)} &  & 181.675\\
+\thickhline
+\end{tabular}
+\caption{Tabel met weightig factors waarmee de unadjusted function points worden berekend. De complexity factor is berekend in tabel \ref{compFactor}.}
+\label{weigtingFactor}
+\end{table}
+
+\begin{table}
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{Complexity factor}		& \textbf{Rating(0..5)}	& \textbf{Weight}	& \textbf{Total}\\
+\hline
+Distributed System				& 5						& *2  =			&	10			\\
+Performance objectives			& 4						& *1  =			&	4			\\
+End-use efficiency				& 4						& *1  =			&	4			\\
+Complex internal processing		& 3						& *1  =			&	3			\\
+Code must be reusable			& 2						& *1  =			&	2			\\
+Easy to install					& 2						& *0.5=			&	1			\\
+Easy to use 					& 1						& *0.5=			&	.5			\\
+Portable						& 2						& *2  =			&	4			\\
+Easy to change					& 3						& *1  =			&	3			\\
+Concurrent						& 3						& *1  =			&	3			\\
+Special security				& 4						& *1  =			&	4			\\
+Direct access for 3rd parties	& 3						& *1  =			&	3			\\
+Special user training			& 2						& *1  =			&	2			\\
+\hline
+Total Complexity	&	\multicolumn{3}{r|}{=sum(Total)=42.5}\\
+\hline
+Complexity factor	& \multicolumn{3}{r|}{=0.65+Total Complexity*0.01=1.075}\\
+\hline
+\end{tabular}
+\caption{test}
+\label{compFactor}
+\end{table}
+
 
 \section{Refactoring}
 Er zijn 4 manieren om aan refactoring te doen: Extract Method, Move Behaviour Close to the Data, Eliminate Navigation Code and Transform Self Type.
@@ -39,4 +168,6 @@ We kunnen \textbf{Transform Self Type Checks} gebruiken in de klasse \textit{Pay
 Een andere refactoring methode die we kunnen toepassen, is op \textit{PaymentProcessor}. Deze klasse heeft functionaliteit die alleen maar inwerkt op de klasse \textit{Payment}. We kunnen deze code dus verplaatsen naar de klasse \textit{Payment}  (en zijn subclasses) door \textbf{Eliminate Navigation Code} toe te passen. \\
 
 Uiteindelijk kunnen we de hele class \textit{PaymentProcessor} wegwerken met de refactoring, door ook \textbf{Extract Method} en \textbf{Move Behaviour Close to the Data} toe te passen.\\
+\end{document}
+
 \end{document}
