@@ -1,0 +1,484 @@
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:13:	The field name 'm_db' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:14:	The field name 'm_catalog' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	The field name 'm_found_itemsets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	The field name 'm_itemsets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Avoid variables with short names like db
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Parameter 'catalog' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Parameter 'db' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	Parameter 'min_sup' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	The method parameter name 'min_sup' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:26:	The local variable name 'itemset_size' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:34:	Local variable 'item' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:36:	Local variable 'tmp' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:49:	Avoid excessively long variable names like prev_iter_itemsets
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:49:	Local variable 'prev_iter_itemsets' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:49:	The local variable name 'prev_iter_itemsets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:52:	Local variable 'itemset1' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:53:	Local variable 'itemset2' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:55:	Local variable 'new_tidlist' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:55:	The local variable name 'new_tidlist' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:56:	Local variable 'joined' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:70:	Parameter 'itemset1' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:70:	Parameter 'itemset2' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:72:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:74:	Local variable 'tmp' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Parameter 'lst1' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Parameter 'lst2' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:83:	Local variable 'joined' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:98:	Parameter 'itemset' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:100:	Local variable 'item' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	The field name 'm_tidlist' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	Parameter 'catalog' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	Parameter 'orders' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:20:	Local variable 'item_id' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:20:	The local variable name 'item_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:24:	Local variable 'order_list' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:24:	The local variable name 'order_list' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:25:	Local variable 'order' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:26:	Local variable 'item' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:27:	Local variable 'cid' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:29:	This statement should have braces
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:38:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:39:	Local variable 'tmp' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:8:	Avoid short class names like Cart
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:9:	The field name 'm_cid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	The field name 'm_contents' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:30:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:30:	Parameter 'quantity' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:48:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:48:	Parameter 'quantity' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:65:	Local variable 'entry' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:14:	The field name 'm_all_items' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:32:	Parameter 'filename' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:44:	Parameter 'filename' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:55:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:60:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:61:	Local variable 'it' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:65:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:75:	Avoid variables with short names like id
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:75:	Parameter 'id' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Parameter 'categories' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:85:	Local variable 'filtered_items' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:85:	The local variable name 'filtered_items' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:87:	Local variable 'iid' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:88:	Local variable 'check' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:91:	This statement should have braces
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Parameter 'items' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:99:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:102:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:104:	Local variable 'common' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:106:	Local variable 'cat' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:110:	Local variable 'it' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:112:	Local variable 'cat' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	The field name 'm_categories' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:14:	Local variable 'basic_categories' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:14:	The local variable name 'basic_categories' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:15:	Local variable 'cat' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:26:	Parameter 'category' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:28:	This statement should have braces
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:8:	Avoid short class names like Item
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:9:	The field name 'm_iid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:11:	The field name 'm_name' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:12:	The field name 'm_desc' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:13:	The field name 'm_price' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:14:	The field name 'm_category' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Parameter 'desc' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Parameter 'name' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Parameter 'price' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:31:	Avoid using short method names
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:31:	The instance method name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:11:	The field name 'm_oid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:12:	The static field name 'm_next_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:14:	The field name 'm_status' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:16:	The field name 'm_client' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	The field name 'm_contents' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:24:	Parameter 'cart' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:24:	Parameter 'client' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:35:	Avoid using short method names
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:35:	The instance method name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:50:	Avoid if (x != y) ..; else ..;
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:52:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order_Status.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order_Status.java:3:	The enum name 'Order_Status' doesn't match '[A-Z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:12:	The field name 'm_orders' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	The field name 'm_id_order' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:26:	Parameter 'order' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:35:	Parameter 'oid' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:40:	Parameter 'oid' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:48:	Parameter 'oid' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:49:	Local variable 'o' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:51:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:3:	The utility class name 'convert' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:4:	Parameter 'price' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:13:	The field name 'm_db' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:14:	The field name 'm_catalog' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	The field name 'm_found_itemsets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	The field name 'm_itemsets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Avoid variables with short names like db
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Parameter 'catalog' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Parameter 'db' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	Parameter 'min_sup' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	The method parameter name 'min_sup' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:26:	The local variable name 'itemset_size' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:34:	Local variable 'item' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:36:	Local variable 'tmp' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:49:	Avoid excessively long variable names like prev_iter_itemsets
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:49:	Local variable 'prev_iter_itemsets' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:49:	The local variable name 'prev_iter_itemsets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:52:	Local variable 'itemset1' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:53:	Local variable 'itemset2' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:55:	Local variable 'new_tidlist' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:55:	The local variable name 'new_tidlist' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:56:	Local variable 'joined' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:70:	Parameter 'itemset1' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:70:	Parameter 'itemset2' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:72:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:74:	Local variable 'tmp' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Parameter 'lst1' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Parameter 'lst2' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:83:	Local variable 'joined' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:98:	Parameter 'itemset' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:100:	Local variable 'item' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	The field name 'm_tidlist' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	Parameter 'catalog' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	Parameter 'orders' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:20:	Local variable 'item_id' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:20:	The local variable name 'item_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:24:	Local variable 'order_list' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:24:	The local variable name 'order_list' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:25:	Local variable 'order' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:26:	Local variable 'item' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:27:	Local variable 'cid' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:29:	This statement should have braces
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:38:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:39:	Local variable 'tmp' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:8:	Avoid short class names like Cart
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:9:	The field name 'm_cid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	The field name 'm_contents' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:30:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:30:	Parameter 'quantity' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:48:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:48:	Parameter 'quantity' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:65:	Local variable 'entry' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:14:	The field name 'm_all_items' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:32:	Parameter 'filename' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:44:	Parameter 'filename' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:55:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:60:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:61:	Local variable 'it' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:65:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:75:	Avoid variables with short names like id
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:75:	Parameter 'id' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Parameter 'categories' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:85:	Local variable 'filtered_items' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:85:	The local variable name 'filtered_items' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:87:	Local variable 'iid' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:88:	Local variable 'check' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:91:	This statement should have braces
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Parameter 'items' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:99:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:102:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:104:	Local variable 'common' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:106:	Local variable 'cat' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:110:	Local variable 'it' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:112:	Local variable 'cat' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	The field name 'm_categories' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:14:	Local variable 'basic_categories' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:14:	The local variable name 'basic_categories' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:15:	Local variable 'cat' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:26:	Parameter 'category' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:28:	This statement should have braces
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:8:	Avoid short class names like Item
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:9:	The field name 'm_iid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:11:	The field name 'm_name' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:12:	The field name 'm_desc' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:13:	The field name 'm_price' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:14:	The field name 'm_category' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Parameter 'desc' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Parameter 'name' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Parameter 'price' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:31:	Avoid using short method names
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:31:	The instance method name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:11:	The field name 'm_oid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:12:	The static field name 'm_next_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:14:	The field name 'm_status' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:16:	The field name 'm_client' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	The field name 'm_contents' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:24:	Parameter 'cart' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:24:	Parameter 'client' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:35:	Avoid using short method names
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:35:	The instance method name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:50:	Avoid if (x != y) ..; else ..;
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:52:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order_Status.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order_Status.java:3:	The enum name 'Order_Status' doesn't match '[A-Z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:12:	The field name 'm_orders' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	The field name 'm_id_order' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:26:	Parameter 'order' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:35:	Parameter 'oid' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:40:	Parameter 'oid' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:48:	Parameter 'oid' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:49:	Local variable 'o' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:51:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:3:	The utility class name 'convert' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:4:	Parameter 'price' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:13:	The field name 'm_db' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:14:	The field name 'm_catalog' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	The field name 'm_found_itemsets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	The field name 'm_itemsets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Avoid variables with short names like db
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Parameter 'catalog' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Parameter 'db' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	Parameter 'min_sup' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	The method parameter name 'min_sup' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:26:	The local variable name 'itemset_size' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:34:	Local variable 'item' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:36:	Local variable 'tmp' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:49:	Avoid excessively long variable names like prev_iter_itemsets
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:49:	Local variable 'prev_iter_itemsets' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:49:	The local variable name 'prev_iter_itemsets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:52:	Local variable 'itemset1' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:53:	Local variable 'itemset2' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:55:	Local variable 'new_tidlist' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:55:	The local variable name 'new_tidlist' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:56:	Local variable 'joined' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:70:	Parameter 'itemset1' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:70:	Parameter 'itemset2' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:72:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:74:	Local variable 'tmp' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Parameter 'lst1' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Parameter 'lst2' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:83:	Local variable 'joined' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:98:	Parameter 'itemset' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:100:	Local variable 'item' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	The field name 'm_tidlist' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	Parameter 'catalog' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	Parameter 'orders' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:20:	Local variable 'item_id' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:20:	The local variable name 'item_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:24:	Local variable 'order_list' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:24:	The local variable name 'order_list' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:25:	Local variable 'order' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:26:	Local variable 'item' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:27:	Local variable 'cid' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:29:	This statement should have braces
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:38:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:39:	Local variable 'tmp' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:8:	Avoid short class names like Cart
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:9:	The field name 'm_cid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	The field name 'm_contents' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:30:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:30:	Parameter 'quantity' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:48:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:48:	Parameter 'quantity' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:65:	Local variable 'entry' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:14:	The field name 'm_all_items' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:32:	Parameter 'filename' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:44:	Parameter 'filename' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:55:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:60:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:61:	Local variable 'it' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:65:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:75:	Avoid variables with short names like id
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:75:	Parameter 'id' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Parameter 'categories' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:85:	Local variable 'filtered_items' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:85:	The local variable name 'filtered_items' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:87:	Local variable 'iid' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:88:	Local variable 'check' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:91:	This statement should have braces
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Parameter 'items' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:99:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:102:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:104:	Local variable 'common' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:106:	Local variable 'cat' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:110:	Local variable 'it' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:112:	Local variable 'cat' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	The field name 'm_categories' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:14:	Local variable 'basic_categories' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:14:	The local variable name 'basic_categories' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:15:	Local variable 'cat' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:26:	Parameter 'category' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:28:	This statement should have braces
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:8:	Avoid short class names like Item
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:9:	The field name 'm_iid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:11:	The field name 'm_name' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:12:	The field name 'm_desc' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:13:	The field name 'm_price' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:14:	The field name 'm_category' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Parameter 'desc' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Parameter 'name' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Parameter 'price' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:31:	Avoid using short method names
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:31:	The instance method name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:11:	The field name 'm_oid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:12:	The static field name 'm_next_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:14:	The field name 'm_status' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:16:	The field name 'm_client' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	The field name 'm_contents' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:24:	Parameter 'cart' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:24:	Parameter 'client' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:35:	Avoid using short method names
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:35:	The instance method name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:50:	Avoid if (x != y) ..; else ..;
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:52:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order_Status.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order_Status.java:3:	The enum name 'Order_Status' doesn't match '[A-Z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:12:	The field name 'm_orders' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	The field name 'm_id_order' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:26:	Parameter 'order' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:35:	Parameter 'oid' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:40:	Parameter 'oid' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:48:	Parameter 'oid' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:49:	Local variable 'o' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:51:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:3:	The utility class name 'convert' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:4:	Parameter 'price' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:13:	The field name 'm_db' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:14:	The field name 'm_catalog' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	The field name 'm_found_itemsets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	The field name 'm_itemsets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Avoid variables with short names like db
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Parameter 'catalog' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Parameter 'db' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	Parameter 'min_sup' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	The method parameter name 'min_sup' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:26:	The local variable name 'itemset_size' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:34:	Local variable 'item' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:36:	Local variable 'tmp' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:49:	Avoid excessively long variable names like prev_iter_itemsets
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:49:	Local variable 'prev_iter_itemsets' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:49:	The local variable name 'prev_iter_itemsets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:52:	Local variable 'itemset1' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:53:	Local variable 'itemset2' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:55:	Local variable 'new_tidlist' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:55:	The local variable name 'new_tidlist' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:56:	Local variable 'joined' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:70:	Parameter 'itemset1' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:70:	Parameter 'itemset2' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:72:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:74:	Local variable 'tmp' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Parameter 'lst1' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Parameter 'lst2' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:83:	Local variable 'joined' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:98:	Parameter 'itemset' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:100:	Local variable 'item' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	The field name 'm_tidlist' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	Parameter 'catalog' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	Parameter 'orders' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:20:	Local variable 'item_id' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:20:	The local variable name 'item_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:24:	Local variable 'order_list' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:24:	The local variable name 'order_list' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:25:	Local variable 'order' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:26:	Local variable 'item' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:27:	Local variable 'cid' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:29:	This statement should have braces
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:38:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:39:	Local variable 'tmp' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:8:	Avoid short class names like Cart
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:9:	The field name 'm_cid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	The field name 'm_contents' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:30:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:30:	Parameter 'quantity' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:48:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:48:	Parameter 'quantity' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:65:	Local variable 'entry' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:14:	The field name 'm_all_items' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:32:	Parameter 'filename' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:44:	Parameter 'filename' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:55:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:60:	Parameter 'item' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:61:	Local variable 'it' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:65:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:75:	Avoid variables with short names like id
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:75:	Parameter 'id' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Parameter 'categories' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:85:	Local variable 'filtered_items' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:85:	The local variable name 'filtered_items' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:87:	Local variable 'iid' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:88:	Local variable 'check' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:91:	This statement should have braces
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Parameter 'items' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:99:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:102:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:104:	Local variable 'common' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:106:	Local variable 'cat' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:110:	Local variable 'it' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:112:	Local variable 'cat' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	The field name 'm_categories' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:14:	Local variable 'basic_categories' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:14:	The local variable name 'basic_categories' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:15:	Local variable 'cat' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:26:	Parameter 'category' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:28:	This statement should have braces
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:8:	Avoid short class names like Item
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:9:	The field name 'm_iid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:11:	The field name 'm_name' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:12:	The field name 'm_desc' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:13:	The field name 'm_price' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:14:	The field name 'm_category' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Parameter 'desc' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Parameter 'name' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Parameter 'price' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:31:	Avoid using short method names
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:31:	The instance method name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:11:	The field name 'm_oid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:12:	The static field name 'm_next_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:14:	The field name 'm_status' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:16:	The field name 'm_client' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	The field name 'm_contents' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:24:	Parameter 'cart' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:24:	Parameter 'client' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:35:	Avoid using short method names
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:35:	The instance method name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:50:	Avoid if (x != y) ..; else ..;
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:52:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order_Status.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order_Status.java:3:	The enum name 'Order_Status' doesn't match '[A-Z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:12:	The field name 'm_orders' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	The field name 'm_id_order' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:26:	Parameter 'order' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:35:	Parameter 'oid' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:40:	Parameter 'oid' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:48:	Parameter 'oid' is not assigned and could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:49:	Local variable 'o' could be declared final
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:51:	A method should have only one exit point, and that should be the last statement in the method
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:1:	Package name contains upper case characters
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:3:	The utility class name 'convert' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:4:	Parameter 'price' is not assigned and could be declared final

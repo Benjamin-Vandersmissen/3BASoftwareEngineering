@@ -1,0 +1,105 @@
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:33:	System.out.println is used
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:48:	System.out.println is used
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:38:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:6:	Avoid unused imports such as 'be.ac.ua.ansymo.adbc.annotations'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:9:	Avoid unused private fields such as 'm_cid'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:57:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:4:	Avoid unused imports such as 'java.util.Collection'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:7:	Avoid unused imports such as 'java.util.Iterator'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:11:	Avoid unused imports such as 'be.ac.ua.ansymo.adbc.annotations'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:14:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:32:	Avoid unused constructor parameters such as 'filename'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:90:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:98:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:20:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:14:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Avoid unused constructor parameters such as 'desc'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Avoid unused constructor parameters such as 'name'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Avoid unused constructor parameters such as 'price'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:47:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:31:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:33:	System.out.println is used
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:48:	System.out.println is used
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:38:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:6:	Avoid unused imports such as 'be.ac.ua.ansymo.adbc.annotations'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:9:	Avoid unused private fields such as 'm_cid'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:57:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:4:	Avoid unused imports such as 'java.util.Collection'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:7:	Avoid unused imports such as 'java.util.Iterator'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:11:	Avoid unused imports such as 'be.ac.ua.ansymo.adbc.annotations'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:14:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:32:	Avoid unused constructor parameters such as 'filename'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:90:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:98:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:20:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:14:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Avoid unused constructor parameters such as 'desc'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Avoid unused constructor parameters such as 'name'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Avoid unused constructor parameters such as 'price'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:47:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:31:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:33:	System.out.println is used
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:48:	System.out.println is used
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:80:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:38:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:6:	Avoid unused imports such as 'be.ac.ua.ansymo.adbc.annotations'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:9:	Avoid unused private fields such as 'm_cid'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:57:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:4:	Avoid unused imports such as 'java.util.Collection'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:7:	Avoid unused imports such as 'java.util.Iterator'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:11:	Avoid unused imports such as 'be.ac.ua.ansymo.adbc.annotations'
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:14:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:32:	Avoid unused constructor parameters such as 'filename'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:90:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:98:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:20:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:14:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Avoid unused constructor parameters such as 'desc'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Avoid unused constructor parameters such as 'name'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Avoid unused constructor parameters such as 'price'.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:47:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:31:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	Avoid using implementation types like 'HashMap'; use the interface instead

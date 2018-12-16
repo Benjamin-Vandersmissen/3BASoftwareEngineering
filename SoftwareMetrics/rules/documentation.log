@@ -1,0 +1,183 @@
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:11:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:13:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:14:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:98:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:14:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:34:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:38:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:8:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:9:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:63:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:72:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:13:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:14:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:19:	Document empty constructor
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:32:	Document empty constructor
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:44:	Document empty method body
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:60:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:71:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:75:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:79:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:8:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:12:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:26:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:8:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:9:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:11:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:12:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:13:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:14:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Document empty constructor
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:31:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:10:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:11:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:12:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:14:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:16:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:31:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:35:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:49:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order_Status.java:3:	Enum comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:11:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:12:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:26:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:31:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:35:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:40:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:48:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:3:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:4:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:11:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:13:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:14:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:98:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:14:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:34:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:38:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:8:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:9:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:63:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:72:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:13:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:14:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:19:	Document empty constructor
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:32:	Document empty constructor
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:44:	Document empty method body
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:60:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:71:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:75:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:79:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:8:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:12:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:26:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:8:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:9:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:11:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:12:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:13:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:14:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Document empty constructor
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:31:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:10:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:11:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:12:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:14:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:16:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:31:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:35:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:49:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order_Status.java:3:	Enum comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:11:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:12:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:26:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:31:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:35:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:40:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:48:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:3:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:4:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:11:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:13:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:14:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:19:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:98:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:14:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:34:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:38:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:8:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:9:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:63:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:72:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:13:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:14:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:19:	Document empty constructor
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:32:	Document empty constructor
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:44:	Document empty method body
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:60:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:71:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:75:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:79:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:8:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:12:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:26:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:8:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:9:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:11:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:12:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:13:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:14:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:27:	Document empty constructor
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:31:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:10:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:11:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:12:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:14:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:16:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:31:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:35:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:49:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order_Status.java:3:	Enum comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:11:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:12:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	Field comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:26:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:31:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:35:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:40:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:48:	Public method and constructor comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:3:	Header comments are required
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:4:	Public method and constructor comments are required

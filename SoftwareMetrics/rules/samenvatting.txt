@@ -1,0 +1,27 @@
+BEST PRACTICES
+use interfaces i.p.v. ArrayList or HashMap
+Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+
+CODE STYLE
+'m_db' doesn't match '[a-z][a-zA-Z0-9]*'
+Avoid variables with short names like db
+Parameter 'catalog' is not assigned and could be declared final
+Avoid excessively long variable names like prev_iter_itemsets
+Package name contains upper case characters
+Avoid short class names like Cart
+
+DESIGN
+TransactionDB.java:17:	A method/constructor should not explicitly throw java.lang.Exception
+Core/Cart.java:50:	These nested if statements could be combined
+
+DOCUMENTATION
+Header comments are required
+Field comments are required
+Public method and constructor comments are required
+Catalog.java:19:	Document empty constructor
+
+performance
+Eclat.java:36:	Avoid instantiating new objects inside loops    //multiple  
+TransactionDB.java:21:	Avoid instantiating new objects inside loops //multiple
+
+

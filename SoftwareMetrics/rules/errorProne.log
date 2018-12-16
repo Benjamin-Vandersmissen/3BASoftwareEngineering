@@ -1,0 +1,66 @@
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	Found 'UR'-anomaly for variable 'item' (lines '24'-'35').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:47:	Found 'DD'-anomaly for variable 'found' (lines '47'-'61').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:61:	Found 'DD'-anomaly for variable 'found' (lines '61'-'61').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:98:	Found 'UR'-anomaly for variable 'item' (lines '98'-'101').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:5:	No need to import a type that lives in the same package
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:63:	Found 'UR'-anomaly for variable 'entry' (lines '63'-'66').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:60:	Found 'UR'-anomaly for variable 'it' (lines '60'-'62').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Found 'UR'-anomaly for variable 'iid' (lines '84'-'89').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Found 'UR'-anomaly for variable 'cat' (lines '97'-'107').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Found 'UR'-anomaly for variable 'cat' (lines '97'-'113').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Found 'UR'-anomaly for variable 'it' (lines '97'-'113').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:101:	Avoid using Literals in Conditional Statements
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:12:	Possible unsafe assignment to a non-final static field in a constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:48:	Found 'UR'-anomaly for variable 'o' (lines '48'-'50').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	Found 'UR'-anomaly for variable 'item' (lines '24'-'35').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:47:	Found 'DD'-anomaly for variable 'found' (lines '47'-'61').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:61:	Found 'DD'-anomaly for variable 'found' (lines '61'-'61').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:98:	Found 'UR'-anomaly for variable 'item' (lines '98'-'101').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:5:	No need to import a type that lives in the same package
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:63:	Found 'UR'-anomaly for variable 'entry' (lines '63'-'66').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:60:	Found 'UR'-anomaly for variable 'it' (lines '60'-'62').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:84:	Found 'UR'-anomaly for variable 'iid' (lines '84'-'89').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Found 'UR'-anomaly for variable 'cat' (lines '97'-'107').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Found 'UR'-anomaly for variable 'cat' (lines '97'-'113').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:97:	Found 'UR'-anomaly for variable 'it' (lines '97'-'113').
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:101:	Avoid using Literals in Conditional Statements
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:12:	Possible unsafe assignment to a non-final static field in a constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:48:	Found 'UR'-anomaly for variable 'o' (lines '48'-'50').

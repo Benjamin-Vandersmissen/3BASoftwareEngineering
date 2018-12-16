@@ -1,0 +1,117 @@
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:13:	Private field 'm_db' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:14:	Private field 'm_catalog' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	Perhaps 'm_found_itemsets' could be replaced by a local variable.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	Perhaps 'm_itemsets' could be replaced by a local variable.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	The method 'calculate(int)' has a cyclomatic complexity of 10.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:35:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:38:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:50:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:51:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:52:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:53:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:54:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:58:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:59:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:101:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	Private field 'm_tidlist' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	A method/constructor should not explicitly throw java.lang.Exception
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	Private field 'm_contents' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:50:	These nested if statements could be combined
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:66:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:62:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:63:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:64:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:89:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:89:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:102:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:106:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:113:	Avoid unnecessary comparisons in boolean expressions
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:113:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	Private field 'm_categories' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:8:	The class 'Item' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=5)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:11:	Private field 'm_oid' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:16:	Private field 'm_client' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	Private field 'm_contents' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:12:	Private field 'm_orders' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	Private field 'm_id_order' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:41:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:3:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+LoosePackageCoupling	-	No packages or classes specified
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:13:	Private field 'm_db' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:14:	Private field 'm_catalog' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	Perhaps 'm_found_itemsets' could be replaced by a local variable.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	Perhaps 'm_itemsets' could be replaced by a local variable.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	The method 'calculate(int)' has a cyclomatic complexity of 10.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:35:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:38:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:50:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:51:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:52:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:53:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:54:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:58:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:59:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:101:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	Private field 'm_tidlist' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	A method/constructor should not explicitly throw java.lang.Exception
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	Private field 'm_contents' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:50:	These nested if statements could be combined
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:66:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:62:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:63:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:64:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:89:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:89:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:102:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:106:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:113:	Avoid unnecessary comparisons in boolean expressions
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:113:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	Private field 'm_categories' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:8:	The class 'Item' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=5)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:11:	Private field 'm_oid' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:16:	Private field 'm_client' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	Private field 'm_contents' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:12:	Private field 'm_orders' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	Private field 'm_id_order' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:41:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:3:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+LoosePackageCoupling	-	No packages or classes specified
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:13:	Private field 'm_db' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:14:	Private field 'm_catalog' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:16:	Perhaps 'm_found_itemsets' could be replaced by a local variable.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:17:	Perhaps 'm_itemsets' could be replaced by a local variable.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:24:	The method 'calculate(int)' has a cyclomatic complexity of 10.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:35:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:38:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:50:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:51:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:52:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:53:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:54:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:58:	Potential violation of Law of Demeter (object not created locally)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:59:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/Eclat.java:101:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:15:	Private field 'm_tidlist' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Analytics/TransactionDB.java:17:	A method/constructor should not explicitly throw java.lang.Exception
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:11:	Private field 'm_contents' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:50:	These nested if statements could be combined
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Cart.java:66:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:62:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:63:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:64:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:89:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:89:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:102:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:106:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:113:	Avoid unnecessary comparisons in boolean expressions
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Catalog.java:113:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Category.java:10:	Private field 'm_categories' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Item.java:8:	The class 'Item' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=5)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:11:	Private field 'm_oid' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:16:	Private field 'm_client' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Order.java:17:	Private field 'm_contents' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:12:	Private field 'm_orders' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:13:	Private field 'm_id_order' could be made final; it is only initialized in the declaration or constructor.
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/Orders.java:41:	Potential violation of Law of Demeter (method chain calls)
+/home/fj/Documents/2018-2019/SE/3BASoftwareEngineering/SoftwareMetrics/code/src/Core/helperfunctions.java:3:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+LoosePackageCoupling	-	No packages or classes specified
