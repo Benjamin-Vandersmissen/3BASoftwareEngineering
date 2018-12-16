@@ -36,6 +36,7 @@ Self type checks wilt zeggen dat er in een klasse een variabele aanwezig is, vaa
 \subsection{Examples of refactoring methods in given code}
 We kunnen \textbf{Transform Self Type Checks} gebruiken in de klasse \textit{Payment.java}. Deze klasse heeft een variabele \textit{type} en op basis van die variabele wordt er verschillende functionaliteit geimplementeerd in \textit{PaymentProcessor}.\\
 
-Een andere refactoring methode die we kunnen toepassen, is op \textit{PaymentProcessor}. Deze klasse heeft functionaliteit die alleen maar inwerkt op de klasse \textit{Payment}. We kunnen deze code dus verplaatsen naar de klasse \textit{Payment}  (en zijn subclasses) door \textbf{Eliminate Navigation Code} toe te passen.
+Een andere refactoring methode die we kunnen toepassen, is op \textit{PaymentProcessor}. Deze klasse heeft functionaliteit die alleen maar inwerkt op de klasse \textit{Payment}. We kunnen deze code dus verplaatsen naar de klasse \textit{Payment}  (en zijn subclasses) door \textbf{Eliminate Navigation Code} toe te passen. \\
 
+Uiteindelijk kunnen we de hele class \textit{PaymentProcessor} wegwerken met de refactoring, door ook \textbf{Extract Method} en \textbf{Move Behaviour Close to the Data} toe te passen.\\
 \end{document}
