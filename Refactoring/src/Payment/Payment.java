@@ -15,4 +15,20 @@ public class Payment {
 		m_type = type;
 		m_state = PaymentState.STARTED;
 	}
+
+	public boolean pay(ExternalPayments externalPayments){
+		payment.m_state = PaymentState.OPEN;
+	}
+
+	public void setOfflinePayed(){
+		m_state = PaymentState.SUCCEED;
+	}
+
+	public PaymentState getPaymentState() {
+		return m_state;
+	}
+
+	public void cancelPayment(){
+		m_state = PaymentState.Aborted;
+	}
 }
